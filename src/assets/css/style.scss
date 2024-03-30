@@ -1,0 +1,20 @@
+// COLORS
+:root {
+  --gray: 208, 208, 208;
+  --background-color-modal: 250, 251, 252;
+}
+
+.background-color-gray {
+  background-color: rgb(var(--background-color-gray));
+}
+
+.background-color-modal {
+  background-color: rgb(var(--background-color-modal), 0.88);
+}
+
+.vpd-wrapper,
+.blur-overlay {
+  -webkit-backdrop-filter: saturate(180%) blur(2px);
+  backdrop-filter: saturate(180%) blur(2px);
+  background: rgba(0, 0, 0, .8);
+}
