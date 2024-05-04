@@ -1,7 +1,6 @@
 # Anatomy-with-Vuejs
 
 <p float="left">
-    <img src="[assets/images/body.png]([https://github.com/RezaHamidi0/Anatomy-with-Vuejs/blob/main/src/assets/images/anatomi-image.png](https://raw.githubusercontent.com/RezaHamidi0/Anatomy-with-Vuejs/main/src/assets/images/anatomi-image.png)?raw=true)" width="100" />
-    <img src="[/img2.png](https://github.com/RezaHamidi0/Anatomy-with-Vuejs/assets/103819181/159f14e5-d8b9-4c1d-ac66-f283f65aacdd)" width="100" />
+    <img src="![anatomi-image](https://github.com/RezaHamidi0/Anatomy-with-Vuejs/assets/103819181/eabe9da1-b42f-4407-8fdc-95b22b39b9f3)" width="100" />
+    <img src="![anatomi-image-select](https://github.com/RezaHamidi0/Anatomy-with-Vuejs/assets/103819181/d5202974-b041-410f-97bd-07e5f3eae247)" width="100" />
 </p>
-
