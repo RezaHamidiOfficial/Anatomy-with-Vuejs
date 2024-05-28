@@ -26,9 +26,10 @@
 
     ```sh
     git clone https://github.com/RezaHamidi0/Anatomy-with-Vuejs.git
+    ```
+    ```sh
     cd Anatomy-with-Vuejs
     ```
-
 2. Install dependencies:
 
     ```sh
