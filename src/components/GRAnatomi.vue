@@ -184,34 +184,4 @@ async function onDrop(event) {
   width: 18px;
   height: 18px;
 }
-
-@media print {
-  ::v-global(.gr-navbar) {
-    display: none !important;
-    width: 0 !important;
-  }
-
-  ::v-global(.gr-sidebar) {
-    display: none !important;
-    width: 0 !important;
-  }
-
-  ::v-global(.wear-div) {
-    width: 100vw !important;
-  }
-
-  ::v-global(.hide-div) {
-    display: none !important;
-  }
-
-  ::v-global(.shadow-sm) {
-    box-shadow: none !important;
-  }
-  ::v-global(.when-print) {
-    color: black !important;
-  }
-  ::v-global(.drop-box) {
-    width: 90% !important;
-  }
-}
 </style>
