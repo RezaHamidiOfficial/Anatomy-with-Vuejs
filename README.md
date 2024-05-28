@@ -51,7 +51,7 @@ To use this component in your project, follow these steps:
     ```vue
     <script setup lang="ts">
     import { Ref, ref } from "vue";
-    import RHAnatomi from "@/components/RHAnatomi.vue";
+    import GRAnatomi from "@/components/GRAnatomi.vue";
     import Biography from "@/types/Biography";
 
     const selectDropped: Ref<Biography[]> = ref([]);
@@ -59,7 +59,7 @@ To use this component in your project, follow these steps:
 
     <template>
       <div class="d-flex justify-content-center w-100">
-        <RHAnatomi
+        <GRAnatomi
           :set-dropped-elements="selectDropped"
           image-url="/body.png"
           v-model="selectDropped"
@@ -79,7 +79,7 @@ To use this component in your project, follow these steps:
 
 ## Component Code
 
-### RHAnatomi.vue
+### GRAnatomi.vue
 ```vue
 <script setup lang="ts">
 // Pakages
