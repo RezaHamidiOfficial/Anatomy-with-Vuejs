@@ -22,21 +22,13 @@
 
 ## Installation
 
-1. Clone the repository:
-
-    ```sh
-    git clone https://github.com/RezaHamidi0/Anatomy-with-Vuejs.git
-    ```
-    ```sh
-    cd Anatomy-with-Vuejs
-    ```
-2. Install dependencies:
+1. Install dependencies:
 
     ```sh
     npm install
     ```
 
-3. Run the project:
+2. Run the project:
 
     ```sh
     npm run serve
@@ -273,31 +265,6 @@ async function onDrop(event) {
 
 <br />
 
-### App.vue
-```vue
-<script setup lang="ts">
-import { Ref, ref } from "vue";
-import GRAnatomi from "@/components/GRAnatomi.vue";
-import Biography from "@/types/Biography";
-
-const selectDropped: Ref<Biography[]> = ref([]);
-</script>
-
-<template>
-  <div class="d-flex justify-content-center w-100">
-    <GRAnatomi
-      :set-dropped-elements="selectDropped"
-      image-url="/body.png"
-      v-model="selectDropped"
-    />
-  </div>
-</template>
-
-<style scoped></style>
-```
-
-<br />
-
 ### Biography.ts
 ```typescript
 export default interface boxElement {
@@ -307,23 +274,6 @@ export default interface boxElement {
   locationY: number,
 }
 ```
-
-<br />
-
-## Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
-For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 <br />
 
